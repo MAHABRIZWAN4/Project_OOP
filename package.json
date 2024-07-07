@@ -1,0 +1,24 @@
+{
+  "name": "m4-Project_OOP",
+  "version": "1.0.0",
+  "description": "This TypeScript project adheres to Object-Oriented Programming (OOP) principles. It includes classes like `Student` and `Person` to manage student data. The `programStart` function handles user interactions using inquirer.js, allowing users to choose between interacting with staff or students. It manages adding new students, displaying existing ones, and provides an option to exit the program.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/gradient-string": "^1.1.6",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.9"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.3.4"
+  }
+}
